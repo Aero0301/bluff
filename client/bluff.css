@@ -1,1 +1,50 @@
 /* init */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background: #667e2c;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  background: #fbfbf8;
+  padding: 0.25rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  height: 6rem;
+  width: 4rem;
+  margin: 0.25rem;
+  border-radius: 5px;
+}
+
+.card .number {
+  font-size: 1rem;
+}
+
+.card .suit {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.red {
+  color: #ff0000;
+}
+
+.black {
+  color: #000000;
+}

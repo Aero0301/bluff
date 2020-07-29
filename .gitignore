@@ -69,4 +69,6 @@ package-lock.json
 # vscode
 .vscode/*
 
-# Add any unwanted files here
+# Add any unwanted files here\
+node_modules/*
+.gitignore
